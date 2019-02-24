@@ -7,8 +7,9 @@
 
 <body>
 <?php
-$x=5;
+$x=5;//Global variable
 function mytest(){
+	//using x inside this function will generate an error
 	echo "<p> variable x inside function is:$x</p>";
 	}
 	mytest();
